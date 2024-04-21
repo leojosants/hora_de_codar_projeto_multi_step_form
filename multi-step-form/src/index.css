@@ -1,0 +1,21 @@
+:root {
+  --color-333333: #333333;
+  --color-777777: #777777;
+  --color-f9fafc: #f9fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-333333);
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  background-color: var(--color-f9fafc);
+}
+
+p {
+  color: var(--color-777777);
+}

@@ -1,0 +1,89 @@
+:root {
+    --color--cfcfcf: #cfcfcf;
+    --color--dfdfdf: #dfdfdf;
+    --color--ffffff: #ffffff;
+    --color--777777: #777777;
+    --color--63636333: #63636333;
+    --color--64640b33: #64640b33;
+}
+
+.class-app {
+    padding: 2rem;
+}
+
+.class-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.class-header h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.class-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--color--ffffff);
+    padding: 1.5rem;
+    box-shadow: 0px 7px 29px 0px var(--color--64640b33);
+}
+
+.class-inputs-container {
+    min-height: 280px;
+}
+
+.class-form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.class-form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--color--777777);
+}
+
+input,
+textarea {
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px var(--color--63636333);
+}
+
+textarea {
+    height: 120px;    
+}
+
+.class-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.class-actions button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    gap: 0.5rem;
+    border-radius: 5px;
+    background-color: var(--color--dfdfdf);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.class-actions button:hover {
+    background-color: var(--color--cfcfcf);
+}

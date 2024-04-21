@@ -1,0 +1,45 @@
+:root {
+    --color-7076f4: #7076f4;
+    --color-cccccc: #cccccc;
+    --color-ffffff: #ffffff;
+}
+
+.class-steps {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.class-steps::after {
+    content: '';
+    width: 380px;
+    border-bottom: 1px solid var(--color-cccccc);
+    position: absolute;
+    top: 20px;
+}
+
+.class-step {
+    text-align: center;
+    background-color: var(--color-ffffff);
+    z-index: 1;
+    width: 120px;
+    padding: 0.5rem;
+}
+
+.class-step svg {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.class-active {
+    font-weight: bold;
+}
+
+.class-active > svg {
+    fill: var(--color-7076f4);
+}
