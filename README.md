@@ -6,7 +6,9 @@ Funcionalidade de persistência de dados entre as páginas através de Hook.
 
 ### Executando aplicação
 
-  - `npm install`
+  - `cd multi-step-form`
+
+  - `npm install`  
   
   - `npm run dev`
 
